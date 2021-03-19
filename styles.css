@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Ubuntu:wght@400;500;700&display=swap');
 
+
+
+:root {
+    /* Spacings */
+    --wordspacing-h1: 4px;
+    --leterspacing-h1: 3px;
+
+    /* Font Styles */
+
+    --poppins: "Poppins", sans-serif;
+    --ubuntu: 'Ubuntu', sans-serif;
+
+    /* Colors */
+    --color-crimson: crimson;
+    --color-yellow: yellow;
+}
 html {
     scroll-behavior: smooth;
     scrollbar-width: none;
@@ -18,22 +34,6 @@ a {
 p {
     font-family: var(--ubuntu);
 }
-
-:root {
-    /* Spacings */
-    --wordspacing-h1: 4px;
-    --leterspacing-h1: 3px;
-
-    /* Font Styles */
-
-    --poppins: "Poppins", sans-serif;
-    --ubuntu: 'Ubuntu', sans-serif;
-
-    /* Colors */
-    --color-crimson: crimson;
-    --color-yellow: yellow;
-}
-
 * {
     margin: 0;
     padding: 0;
