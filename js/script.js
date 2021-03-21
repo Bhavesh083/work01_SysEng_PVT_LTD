@@ -1,10 +1,6 @@
-// Drop down menu button functioning script in the resposnive mode
 var date = new Date();
 var latestYear = date.getFullYear();
 document.getElementById("date-year").innerHTML = latestYear;
-
-
-// Image Slider 
 
 function showNavigation(){
     var responsiveNavbarItems = document.getElementById('responsive-nav');
