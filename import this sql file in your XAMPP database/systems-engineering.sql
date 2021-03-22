@@ -1,31 +1,9 @@
--- phpMyAdmin SQL Dump
--- version 5.0.4
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Feb 08, 2021 at 10:07 AM
--- Server version: 10.4.17-MariaDB
--- PHP Version: 7.2.34
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
--- Database: `systems-engineering`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `contacts`
---
 
 CREATE TABLE `contacts` (
   `sno` int(50) NOT NULL,
@@ -36,19 +14,11 @@ CREATE TABLE `contacts` (
   `date` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `contacts`
---
 
 INSERT INTO `contacts` (`sno`, `name`, `email`, `phone_num`, `message`, `date`) VALUES
 (1, 'Vinay', 'vinaymaheshwari35@gmail.com', '7982043775', 'Hello Just a test message ', '2021-02-03 15:24:46'),
 (2, 'Vinay Maheshwari', 'michealbuuble@gmail.com', '7892043775', 'this is second message', '2021-02-03 15:37:27');
 
--- --------------------------------------------------------
-
---
--- Table structure for table `investor`
---
 
 CREATE TABLE `investor` (
   `sno` int(50) NOT NULL,
