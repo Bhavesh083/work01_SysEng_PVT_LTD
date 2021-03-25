@@ -15,9 +15,6 @@ a {
     margin-bottom: 1rem;
 }
 
-p {
-    font-family: var(--ubuntu);
-}
 
 :root {
     /* Spacings */
@@ -34,6 +31,9 @@ p {
     --color-yellow: yellow;
 }
 
+p {
+    font-family: var(--ubuntu);
+}
 * {
     margin: 0;
     padding: 0;
